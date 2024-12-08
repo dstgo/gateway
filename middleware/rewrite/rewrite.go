@@ -1,13 +1,14 @@
 package rewrite
 
 import (
-	"github.com/limes-cloud/gateway/config"
-	"github.com/limes-cloud/gateway/utils"
 	"net/http"
 	"path"
 	"strings"
 
-	"github.com/limes-cloud/gateway/middleware"
+	"github.com/dstgo/gateway/config"
+	"github.com/dstgo/gateway/utils"
+
+	"github.com/dstgo/gateway/middleware"
 )
 
 func init() {

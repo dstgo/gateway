@@ -22,12 +22,12 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/http/status"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/limes-cloud/gateway/client"
-	"github.com/limes-cloud/gateway/config"
-	"github.com/limes-cloud/gateway/consts"
-	"github.com/limes-cloud/gateway/middleware"
-	"github.com/limes-cloud/gateway/router"
-	"github.com/limes-cloud/gateway/router/mux"
+	"github.com/dstgo/gateway/client"
+	"github.com/dstgo/gateway/config"
+	"github.com/dstgo/gateway/consts"
+	"github.com/dstgo/gateway/middleware"
+	"github.com/dstgo/gateway/router"
+	"github.com/dstgo/gateway/router/mux"
 )
 
 var (

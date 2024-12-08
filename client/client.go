@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 
-	"github.com/limes-cloud/gateway/consts"
-	"github.com/limes-cloud/gateway/middleware"
+	"github.com/dstgo/gateway/consts"
+	"github.com/dstgo/gateway/middleware"
 )
 
 type client struct {

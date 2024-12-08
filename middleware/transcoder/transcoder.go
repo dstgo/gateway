@@ -4,14 +4,15 @@ import (
 	"bytes"
 	"encoding/base64"
 	"encoding/binary"
-	"github.com/limes-cloud/gateway/config"
-	"github.com/limes-cloud/gateway/consts"
 	"io"
 	"net/http"
 	"strconv"
 	"strings"
 
-	"github.com/limes-cloud/gateway/middleware"
+	"github.com/dstgo/gateway/config"
+	"github.com/dstgo/gateway/consts"
+
+	"github.com/dstgo/gateway/middleware"
 	spb "google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"

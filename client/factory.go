@@ -3,10 +3,11 @@ package client
 import (
 	"context"
 	"fmt"
-	"github.com/limes-cloud/gateway/config"
 	"strconv"
 	"strings"
 	"sync/atomic"
+
+	"github.com/dstgo/gateway/config"
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/registry"

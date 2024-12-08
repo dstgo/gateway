@@ -3,18 +3,19 @@ package client
 import (
 	"crypto/tls"
 	"errors"
-	"github.com/limes-cloud/gateway/consts"
 	"net"
 	"net/http"
 	"os"
 	"strings"
 	"time"
 
+	"github.com/dstgo/gateway/consts"
+
 	"github.com/go-kratos/kratos/v2/selector"
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/net/http2"
 
-	"github.com/limes-cloud/gateway/middleware"
+	"github.com/dstgo/gateway/middleware"
 )
 
 var _ selector.Node = &node{}

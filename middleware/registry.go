@@ -2,8 +2,9 @@ package middleware
 
 import (
 	"errors"
-	"github.com/limes-cloud/gateway/config"
 	"strings"
+
+	"github.com/dstgo/gateway/config"
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/prometheus/client_golang/prometheus"

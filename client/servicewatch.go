@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/dstgo/gateway/proxy/debug"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/registry"
 	"github.com/google/uuid"
-	"github.com/limes-cloud/gateway/proxy/debug"
 )
 
 var ErrCancelWatch = errors.New("cancel watch")

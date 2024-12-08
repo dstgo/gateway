@@ -1,9 +1,10 @@
 package middleware
 
 import (
-	"github.com/limes-cloud/gateway/config"
 	"io"
 	"net/http"
+
+	"github.com/dstgo/gateway/config"
 )
 
 // Factory is a middleware factory.

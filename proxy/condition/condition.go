@@ -3,10 +3,11 @@ package condition
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/limes-cloud/gateway/config"
 	"net/http"
 	"strconv"
 	"strings"
+
+	"github.com/dstgo/gateway/config"
 )
 
 type Condition interface {

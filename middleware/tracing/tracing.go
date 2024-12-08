@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/dstgo/gateway/config"
+	"github.com/dstgo/gateway/utils"
 	"github.com/go-kratos/kratos/v2"
-	"github.com/limes-cloud/gateway/config"
-	"github.com/limes-cloud/gateway/utils"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
 
-	"github.com/limes-cloud/gateway/middleware"
+	"github.com/dstgo/gateway/middleware"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"

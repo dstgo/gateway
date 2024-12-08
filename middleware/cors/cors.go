@@ -2,8 +2,6 @@ package cors
 
 import (
 	"bytes"
-	"github.com/limes-cloud/gateway/config"
-	"github.com/limes-cloud/gateway/utils"
 	"io"
 	"net/http"
 	"net/url"
@@ -11,7 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/limes-cloud/gateway/middleware"
+	"github.com/dstgo/gateway/config"
+	"github.com/dstgo/gateway/utils"
+
+	"github.com/dstgo/gateway/middleware"
 )
 
 var (

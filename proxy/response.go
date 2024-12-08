@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/limes-cloud/gateway/consts"
+	"github.com/dstgo/gateway/consts"
 )
 
 type Response struct {

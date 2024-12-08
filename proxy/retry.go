@@ -2,12 +2,13 @@ package proxy
 
 import (
 	"context"
-	"github.com/limes-cloud/gateway/config"
 	"net/http"
 	"time"
 
+	"github.com/dstgo/gateway/config"
+
+	"github.com/dstgo/gateway/proxy/condition"
 	"github.com/go-kratos/feature"
-	"github.com/limes-cloud/gateway/proxy/condition"
 )
 
 var (

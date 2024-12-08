@@ -2,19 +2,20 @@ package circuitbreaker
 
 import (
 	"bytes"
-	"github.com/limes-cloud/gateway/config"
-	"github.com/limes-cloud/gateway/utils"
 	"io"
 	"net/http"
 	"sync"
 	"time"
 
+	"github.com/dstgo/gateway/config"
+	"github.com/dstgo/gateway/utils"
+
+	"github.com/dstgo/gateway/client"
+	"github.com/dstgo/gateway/middleware"
+	"github.com/dstgo/gateway/proxy/condition"
 	"github.com/go-kratos/aegis/circuitbreaker"
 	"github.com/go-kratos/aegis/circuitbreaker/sre"
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/limes-cloud/gateway/client"
-	"github.com/limes-cloud/gateway/middleware"
-	"github.com/limes-cloud/gateway/proxy/condition"
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/exp/rand"
 )
